@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>penguin fashion</title>
+    <!-- daisyui cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.6/dist/full.css"
+     rel="stylesheet" type="text/css" />
+    <!-- tailwindcss cdn link -->
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+     <style>
+        .roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+        .montserrat{
+            font-family: 'Montserrat', sans-serif;
+        }
+     </style>
+</head>
+<body>
+    <!-- header part start -->
+    <header class="max-w-[85%] mx-auto">
+       <nav>
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+              <a class="btn btn-ghost normal-case text-xl w-52">
+                <img src="icons/logo.png">
+              </a>
+            </div>
+            <div class="flex-none hidden md:block text-2xl">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>Product</a></li>
+                <li><a>About us</a></li>
+                <li><a>contact us</a></li>
+              </ul>
+            </div>
+          </div>
+       </nav>
+    </header>
+    <header class="container mx-auto">
+         <!-- banner part start -->
+        <div class="hero-section flex items-center flex-col md:flex-row">
+            <div class="text-center md:text-left">
+                 <h1 class=" text-3xl md:text-5xl font-extrabold montserrat "><span class="text-orange-400">BE THE PENGUINS</span><br> OF WINTER</h1>
+                 <P class="roboto text-sm my-5">Lorem ipsum is simply dummy text of the printing <br> and typesetting industry.</P>
+                <button class="btn bg-[#a4bc46]">BUY NOW</button>
+            </div>
+            <div class=" w-72 md:w-96">
+                <img src="images/model.png">
+            </div>
+        </div>
+    </header>
+    <!-- header part end-->
+    <!-- PRODUCT SECTION PART 1 -->
+    <main class="max-w-[85%] mx-auto py-16">
+      <section>
+        <h1 class="mb-10 text-2xl font-bold">WOMAN JACKET</h1>
+        <!-- item-1 -->
+        <div class="grid-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="card w-92 bg-base-100 shadow-xl">
+            <figure class="px-4 pt-6 pb-6 bg-slate-200">
+              <img src="images/jacket-1.png" class="rounded-xl w-48" />
+            </figure>
+            <div class="card-body text-left">
+              <h2 class="card-title text-xl font-bold">Yellow coat jacket</h2>
+              <p class="text-xs ">Lorem ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+              <div class="card-actions flex justify-between items-center mt-5">
+                <span class="text-2xl font-extrabold text-orange-400">$234</span>
+                <button class="btn bg-[#a4bc46] hover:bg-green-400">BUY NOW</button>
+              </div>
+            </div>
+          </div>
+           <!-- item-2 -->
+          <div class="card w-92 bg-base-100 shadow-xl">
+            <figure class="px-4 pt-6 pb-6 bg-slate-200">
+              <img src="images/jacket-2.png" class="rounded-xl w-48" />
+            </figure>
+            <div class="card-body text-left">
+              <h2 class="card-title text-xl font-bold">Ladies jacket</h2>
+              <p class="text-xs">Lorem ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+              <div class="card-actions flex justify-between items-center mt-5">
+                <span class="text-2xl font-extrabold text-orange-400">$234</span>
+                <button class="btn bg-[#a4bc46] hover:bg-green-400">BUY NOW</button>
+              </div>
+            </div>
+          </div>
+           <!-- item-3 -->
+          <div class="card w-92 bg-base-100 shadow-xl">
+            <figure class="px-4 pt-6 pb-6 bg-slate-200">
+              <img src="images/jacket-3.png" class="rounded-xl w-48" />
+            </figure>
+            <div class="card-body text-left">
+              <h2 class="card-title text-xl font-bold">woman Leather jacket</h2>
+              <p class="text-xs">Lorem ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+              <div class="card-actions flex justify-between items-center mt-5">
+                <span class="text-2xl font-extrabold text-orange-400">$234</span>
+                <button class="btn bg-[#a4bc46] hover:bg-green-400">BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h1 class="text-2xl font-extrabold my-10">MAN JACKET</h1>
+        <!-- PRODUCT SECTION PART-2-->
+         <!-- item-1 -->
+         <div class="grid-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="card w-92 bg-base-100 shadow-xl">
+            <figure class="px-4 pt-6 pb-6 bg-slate-200">
+              <img src="images/jacket-4.png" class="rounded-xl w-48" />
+            </figure>
+            <div class="card-body text-left">
+              <h2 class="card-title text-xl font-bold">Yellow coat jacket</h2>
+              <p class="text-xs">Lorem ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+              <div class="card-actions flex justify-between items-center mt-5">
+                <span class="text-2xl font-extrabold text-orange-400">$234</span>
+                <button class="btn bg-[#a4bc46] hover:bg-green-400">BUY NOW</button>
+              </div>
+            </div>
+          </div>
+           <!-- item-2 -->
+          <div class="card w-92 bg-base-100 shadow-xl">
+            <figure class="px-4 pt-6 pb-6 bg-slate-200">
+              <img src="images/jacket-5.png" class="rounded-xl w-48" />
+            </figure>
+            <div class="card-body text-left">
+              <h2 class="card-title text-xl font-bold">Ladies jacket</h2>
+              <p class="text-xs">Lorem ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+              <div class="card-actions flex justify-between items-center mt-5">
+                <span class="text-2xl font-extrabold text-orange-400">$234</span>
+                <button class="btn bg-[#a4bc46] hover:bg-green-400">BUY NOW</button>
+              </div>
+            </div>
+          </div>
+           <!-- item-3 -->
+          <div class="card w-92 bg-base-100 shadow-xl">
+            <figure class="px-4 pt-6 pb-6 bg-slate-200">
+              <img src="images/jacket-6.png" class="rounded-xl w-48" />
+            </figure>
+            <div class="card-body text-left">
+              <h2 class="card-title text-xl font-bold">woman Leather jacket</h2>
+              <p class="text-xs">Lorem ipsum is simply dummy text of the <br> printing and typesetting industry.</p>
+              <div class="card-actions flex justify-between items-center mt-5">
+                <span class="text-2xl font-extrabold text-orange-400">$234</span>
+                <button class="btn bg-[#a4bc46] hover:bg-green-400">BUY NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- servic part -->
+      <section>
+      <div class="flex my-24 justify-between items-center flex-col lg:flex-row">
+        <div class="servic">
+          <div class="flex items-center gap-5 shadow-xl p-5">
+            <img class="w-16" src="icons/house.png">
+            <div class="">
+              <h2 class=" text-lg md:text-xl font-bold ">Find the parfact fit</h2>
+              <p class="text-xs mt-2">Everybody is defferent which is why we <br> offer styles for every body.</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-5 shadow-xl p-5 my-8">
+            <img class="w-16" src="icons/box.png">
+            <div class="">
+              <h2 class="text-lg md:text-xl font-bold">Find the parfact fit</h2>
+              <p class="text-xs mt-2">Everybody is defferent which is why we <br> offer styles for every body.</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-5 shadow-xl p-5 my-8">
+            <img class="w-16" src="icons/question.png">
+            <div class="">
+              <h2 class="text-lg md:text-xl font-bold">Find the parfact fit</h2>
+              <p class="text-xs mt-2">Everybody is defferent which is why we <br> offer styles for every body.</p>
+            </div>
+          </div>
+        </div>
+        <div class="servic-1">
+          <div class=" max-w-md md:max-w-xl block mx-auto">
+            <img src="images/shopping.png" >
+          </div>
+        </div>
+      </div>
+      </section>
+    </main>
+</body>
+</html>
